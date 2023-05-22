@@ -1,4 +1,4 @@
-export default [
+export const timeline = [
     {
         year: 'Today',
         title: 'Junior Front-End Developer',

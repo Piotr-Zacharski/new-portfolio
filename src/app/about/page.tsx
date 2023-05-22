@@ -1,5 +1,5 @@
 import TimelineItem from "@/components/TimelineItem";
-import timeline from "@/config/timeline";
+import {timeline} from "@/config/timeline";
 import Title from "@/components/Title";
 
 export default function About() {

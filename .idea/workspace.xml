@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fe8f019-ffe5-4823-9867-85a26090242a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/cmore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/hh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TimelineItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/timeline.ts" afterDir="false" />
+    <list default="true" id="6fe8f019-ffe5-4823-9867-85a26090242a" name="Changes" comment=":lipstick: app almost finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/timeline.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +101,23 @@
       <workItem from="1684566955686" duration="4181000" />
       <workItem from="1684594361654" duration="9178000" />
       <workItem from="1684738608968" duration="1206000" />
-      <workItem from="1684740200441" duration="10122000" />
+      <workItem from="1684740200441" duration="10518000" />
     </task>
+    <task id="LOCAL-00001" summary=":lipstick: app almost finished">
+      <created>1684750784601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684750784601</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":lipstick: app almost finished" />
+    <option name="LAST_COMMIT_MESSAGE" value=":lipstick: app almost finished" />
   </component>
 </project>

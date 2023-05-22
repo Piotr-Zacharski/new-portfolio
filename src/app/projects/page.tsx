@@ -10,6 +10,7 @@ export default function Projects() {
                 <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-16">
                     {projects.map(project => (
                         <ProjectItem
+                            key={project.title}
                             src={project.image}
                             title={project.title}
                             stack={project.stack}
