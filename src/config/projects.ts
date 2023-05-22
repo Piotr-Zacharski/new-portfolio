@@ -41,7 +41,7 @@ export const projects = [
             {name: 'ts', logo: typescript},
             {name: 'redux', logo: redux},
             {name: 'mui', logo: mui},
-            { logo: rq},
+            { name: 'rq', logo: rq},
         ],
         image: cmore
     },
@@ -53,9 +53,9 @@ export const projects = [
             {name: 'ts', logo: typescript},
             {name: 'redux', logo: redux},
             {name: 'mui', logo: mui},
-            { logo: zustand},
-            { logo: rhf},
-            { logo: rq}
+            { name: 'zustand', logo: zustand},
+            { name: 'rq', logo: rq},
+            { name: 'rhf', logo: rhf}
         ],
         image: hh
     }
