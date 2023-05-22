@@ -1,30 +1,36 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface Props {
     title: string;
-    description: string;
     stack: { name: string, logo?: string }[];
+    link?: string | undefined;
+    src?: string | undefined;
 }
 
-export default function ProjectItem({title, description, stack}: Props) {
-    // @ts-ignore
+export default function ProjectItem({title, stack, link, src}: Props) {
     return (
-        <div className="flex p-4 gap-2 justify-center">
-        <div className="border-2 border-stone-800 w-80 rounded-l">
-            <div className="p-2 text-center">
-                <h3 className="text-stone-800 text-xl font-bold">{title}</h3>
+        <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border-2 border-stone-700 border-t-pink-700 border-r-pink-700 rounded-md overflow-hidden"
+        >
+            <Image
+                src={src}
+                alt="portfolio"
+                className="w-full h-36 md:h-48 object-cover cursor-pointer"
+            />
+            <div className="w-full p-4">
+                <h3 className="lg md:text-xl dark:text-white mb-2 md:mb-3 font-semibold ">{title}</h3>
+                <span className="flex w-full gap-2 flex-row items-center justify-center text-xs md:text-sm dark:text-white ">
+                    {stack.map(item => (
+                        <span key={item.name} className=" flex flex-row px-2 py-1 font-semibold rounded-md">
+                            <Image width={30} height={30} src={item.logo} alt={item.name} />
+                  </span>
+                    ))}
+                </span>
             </div>
-            <div className="p-2 text-justify">
-                <p className="text-sm">{description}</p>
-            </div>
-            <div className="flex flex-row p-4 text-center align-center justify-center w-full gap-4">
-                {stack.map((item) => (
-                    <p key={item.name} className="gap-2 rounded-full">
-                        <Image width={30} height={30} src={item?.logo}  alt={item.name}/>
-                    </p>
-                ))}
-            </div>
-        </div>
-        </div>
+        </a>
     )
 }

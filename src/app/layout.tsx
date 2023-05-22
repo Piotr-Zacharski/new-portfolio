@@ -19,7 +19,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
       <Nav />
-      {children}</body>
+      <div className=" text-stone-900 font-inter">
+          <div className="max-w-5xl w-11/12 mx-auto">
+      {children}
+          </div>
+      </div>
+      </body>
     </html>
   )
 }
