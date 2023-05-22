@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6fe8f019-ffe5-4823-9867-85a26090242a" name="Changes" comment=":lipstick: app almost finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProjectsItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectsItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/timeline.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/timeline.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/projects.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,7 @@
       <workItem from="1684566955686" duration="4181000" />
       <workItem from="1684594361654" duration="9178000" />
       <workItem from="1684738608968" duration="1206000" />
-      <workItem from="1684740200441" duration="10518000" />
+      <workItem from="1684740200441" duration="12165000" />
     </task>
     <task id="LOCAL-00001" summary=":lipstick: app almost finished">
       <created>1684750784601</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684750784601</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":lipstick: app almost finished">
+      <created>1684750945854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684750945854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

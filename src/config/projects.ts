@@ -14,10 +14,10 @@ export const projects = [
         title: 'CommonSurface',
         description: 'Common Surface is a hybrid working platform that empowers teams to organise when they come into the office so they can collaborate in person easily.',
         stack: [
-            {logo: react},
-            {logo: typescript},
-            {logo: redux},
-            {logo: mui}
+            {name: 'react', logo: react},
+            {name: 'ts', logo: typescript},
+            {name: 'redux', logo: redux},
+            {name: 'mui', logo: mui}
         ],
         image: cs,
         link: 'https://commonsurface.com/'
@@ -26,10 +26,10 @@ export const projects = [
         title: 'AllAdvertising',
         description: 'Common Surface is a hybrid working platform that empowers teams to organise when they come into the office so they can collaborate in person easily.',
         stack: [
-            {logo: react},
-            {logo: typescript},
-            {logo: redux},
-            {logo: mui}
+            {name: 'react', logo: react},
+            {name: 'ts', logo: typescript},
+            {name: 'redux', logo: redux},
+            {name: 'mui', logo: mui}
         ],
         image: hh
     },
@@ -37,11 +37,11 @@ export const projects = [
         title: 'Cmore',
         description: 'Common Surface is a hybrid working platform that empowers teams to organise when they come into the office so they can collaborate in person easily.',
         stack: [
-            {logo: react},
-            {logo: typescript},
-            {logo: redux},
+            {name: 'react', logo: react},
+            {name: 'ts', logo: typescript},
+            {name: 'redux', logo: redux},
+            {name: 'mui', logo: mui},
             { logo: rq},
-            {logo: mui}
         ],
         image: cmore
     },
@@ -49,12 +49,13 @@ export const projects = [
         title: 'HelloHosty',
         description: 'Experience an AI assistant like never before with Hello Hosty’s Chat-GPT technology, along with other exciting features.',
         stack: [
-            { logo: react},
-            { logo: typescript},
+            {name: 'react', logo: react},
+            {name: 'ts', logo: typescript},
+            {name: 'redux', logo: redux},
+            {name: 'mui', logo: mui},
             { logo: zustand},
             { logo: rhf},
-            { logo: rq},
-            { logo: mui}
+            { logo: rq}
         ],
         image: hh
     }
