@@ -8,6 +8,7 @@ import rhf from '../../public/rhf.png'
 import cs from '../../public/cs.png'
 import hh from '../../public/hh.png'
 import cmore from '../../public/cmore.png'
+import kyc from '../../public/kyc.png'
 
 export const projects = [
     {
@@ -71,6 +72,6 @@ export const projects = [
             { name: 'rq', logo: rq},
             { name: 'rhf', logo: rhf}
         ],
-        image: hh
+        image: kyc
     }
 ]
