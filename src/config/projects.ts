@@ -58,5 +58,19 @@ export const projects = [
             { name: 'rhf', logo: rhf}
         ],
         image: hh
+    },
+    {
+        title: 'KYCmore',
+        description: 'Experience an AI assistant like never before with Hello Hosty’s Chat-GPT technology, along with other exciting features.',
+        stack: [
+            {name: 'react', logo: react},
+            {name: 'ts', logo: typescript},
+            {name: 'redux', logo: redux},
+            {name: 'mui', logo: mui},
+            { name: 'zustand', logo: zustand},
+            { name: 'rq', logo: rq},
+            { name: 'rhf', logo: rhf}
+        ],
+        image: hh
     }
 ]

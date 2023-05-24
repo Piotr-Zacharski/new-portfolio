@@ -2,7 +2,7 @@ import Image, {StaticImageData} from 'next/image'
 
 interface Props {
     title: string;
-    stack?: { name?: string; logo?: string }[];
+    stack?: { name?: string; logo?: StaticImageData }[];
     link?: string;
     src?: StaticImageData;
 }
@@ -13,7 +13,7 @@ export default function ProjectItem({title, stack, link, src}: Props) {
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="border-2 border-stone-700 border-t-pink-700 border-r-pink-700 rounded-md overflow-hidden"
+            className="border-2 border-stone-700 border-t-pink-700 border-r-pink-700 rounded-md overflow-hidden hover:border-t-stone-700 hover:border-r-stone-700 hover:border-b-pink-700 hover:border-l-pink-700"
         >
             { src && (
                 <Image
